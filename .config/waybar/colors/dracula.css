@@ -1,0 +1,37 @@
+/*
+*
+* Dracula color palette
+* Maintainer: exmanubis
+*
+*/
+
+@define-color base   #1e1e2e;
+@define-color mantle #181825;
+@define-color crust  #44475a;
+
+@define-color text     #f8f8f2;
+@define-color subtext0 #a6adc8;
+@define-color subtext1 #bac2de;
+
+@define-color surface0 #6272a4;
+@define-color surface1 #45475a;
+@define-color surface2 #585b70;
+
+@define-color overlay0 #6c7086;
+@define-color overlay1 #7f849c;
+@define-color overlay2 #9399b2;
+
+@define-color cyan      #8be9fd;
+@define-color green     #50fa7b;
+@define-color orange    #ffb86c;
+@define-color pink      #ff79c6;
+@define-color purple    #bd93f9;
+@define-color red       #ff5555;
+@define-color yellow    #f1fa8c;
+@define-color blue      #6272a4;
+@define-color maroon    #eba0ac;
+@define-color red       #f38ba8;
+@define-color mauve     #cba6f7;
+@define-color pink      #ff79c6;
+@define-color flamingo  #f2cdcd;
+@define-color rosewater #f5e0dc;

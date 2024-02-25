@@ -1,0 +1,208 @@
+/**
+ * @name Everforest
+ * @author ExManubis
+ * @version 1.0.0
+ * @description Everforest theme for BetterDiscord
+ * @source https://github.com/Dracula/BetterDiscord
+**/
+:root {
+  --everforest-background: #232a2e !important;
+  --everforest-current-line: #343f44 !important;
+  --everforest-selection: #343f44 !important;
+  --everforest-foreground: #d3c6aa !important;
+  --everforest-comment: #859289 !important;
+  --everforest-cyan: #83c092 !important;
+  --everforest-green: #acc080 !important;
+  --everforest-orange: #e69875 !important;
+  --everforest-pink: #d699b6 !important;
+  --everforest-purple: #d699b6 !important;
+  --everforest-red: #e67e80 !important;
+  --everforest-yellow: #dbbc7f !important;
+  --everforest-line-highlight: #3a515d75 !important;
+  --everforest-non-text: #d3c6aa1a !important;
+  --everforest-white: #d3c6aa !important;
+  --everforest-tab-drop-background: #343f4470 !important;
+  --everforest-background-lighter: #2d353b;
+  --everforest-background-alt: #56635f !important;
+
+  --activity-card-background: var(--everforest-background) !important;
+  --background-accent: var(--everforest-current-line) !important;
+  --background-floating: var(--everforest-background) !important;
+  --background-mobile-primary: var(--everforest-background) !important;
+  --background-mobile-secondary: var(--everforest-background-lighter) !important;
+  --background-modifier-selected: var(--everforest-current-line) !important;
+  --background-primary: var(--everforest-background) !important;
+  --home-background: var(--everforest-background-alt) !important;
+  --background-secondary-alt: var(--everforest-background) !important;
+  --background-secondary: var(--everforest-background-lighter) !important;
+  --background-tertiary: var(--everforest-background-alt) !important;
+  --channeltextarea-background: var(--everforest-selection) !important;
+  --header-primary: var(--everforest-foreground) !important;
+  --interactive-muted: var(--everforest-comment) !important;
+  --interactive-normal: var(--everforest-foreground) !important;
+  --rs-dnd-color: var(--everforest-red) !important;
+  --rs-idle-color: var(--everforest-orange) !important;
+  --rs-invisible-color: var(--everforest-comment) !important;
+  --rs-offline-color: var(--everforest-selection) !important;
+  --rs-online-color: var(--everforest-green) !important;
+  --rs-streaming-color: var(--everforest-purple) !important;
+  --scrollbar-auto-scrollbar-color-thumb: var(--everforest-comment) !important;
+  --scrollbar-auto-scrollbar-color-track: var(
+    --everforest-background-alt
+  ) !important;
+  --scrollbar-auto-thumb: var(--everforest-comment) !important;
+  --scrollbar-auto-track: var(--everforest-background-alt) !important;
+  --scrollbar-thin-thumb: var(--everforest-comment) !important;
+}
+
+.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9,
+.wrapper-1BJsBx:hover .childWrapper-anI2G9 {
+  background-color: var(--everforest-comment) !important;
+}
+
+.container-2cd8Mz {
+  background-color: var(--everforest-background) !important;
+}
+
+.autocomplete-3NRXG8 {
+  background-color: var(--everforest-background) !important;
+}
+
+.autocomplete-3jLKbj {
+  background-color: var(--everforest-background) !important;
+}
+
+.selected-3H3-RC {
+  background-color: var(--everforest-selection) !important;
+}
+
+.container-ZMc96U.themed-Hp1KC_ {
+  background-color: var(--everforest-background) !important;
+}
+
+.contentWrapper-3vHNP2,
+.container-3u7RcY,
+.wrapper-1NNaWG,
+.wrapper-1NNaWG,
+.inspector-DFKXwB,
+.wrapper-22rqw6,
+.listWrapper-2nHLP8,
+.categoryItem-1sHzUv,
+.guildIcon-2SUGiq,
+.header-11eigE {
+  background-color: var(--everforest-background) !important;
+}
+
+.container-1SX9VC,
+.container-2oNtJn {
+  background-color: var(--everforest-selection) !important;
+}
+
+.header-1w9Q93 {
+  background-color: var(--everforest-background);
+}
+
+.messagesPopout-eVzQcI {
+  background-color: var(--everforest-background-alt);
+}
+
+.messageGroupWrapper-1jf_7C {
+  background-color: var(--everforest-background);
+}
+
+.popout-3gby1q {
+  background-color: var(--everforest-background);
+}
+
+.searchBarComponent-18D6hD {
+  background-color: var(--everforest-background-alt);
+}
+
+.friendSelected-3cwmD7 {
+  background-color: var(--everforest-selection);
+}
+
+.anchor-1MIwyf {
+  background-color: var(--everforest-background);
+}
+
+.header-145e10,
+.header-1w9Q93 {
+  background-color: var(--everforest-background);
+}
+
+.active-1grPyy {
+  background-color: var(--everforest-background-alt);
+}
+
+.messagesPopout-eVzQcI {
+  background-color: var(--everforest-background-alt);
+}
+
+.channelHeader-DFRX8q {
+  background-color: var(--everforest-background-alt);
+}
+
+.container-iA3Qrz {
+  background-color: var(--everforest-background-alt);
+}
+
+.messageContainer-3VTXBC {
+  background-color: var(--everforest-background);
+}
+
+.scroller-145h9c {
+  background-color: var(--everforest-background-alt);
+}
+
+.messages-23can0 {
+  background-color: var(--everforest-background);
+}
+
+.container-1A0qQO {
+  background-color: var(--everforest-background-alt);
+}
+
+code {
+  color: var(--everforest-foreground) !important;
+}
+
+span.hljs-built_in {
+  color: var(--everforest-purple) !important;
+}
+
+span.hljs-keyword {
+  color: var(--everforest-pink) !important;
+}
+
+span.hljs-title {
+  color: var(--everforest-cyan) !important;
+}
+
+span.hljs-attr {
+  color: var(--everforest-foreground) !important;
+}
+
+span.hljs-string {
+  color: var(--everforest-yellow) !important;
+}
+
+span.hljs-number {
+  color: var(--everforest-purple) !important;
+}
+
+span.hljs-symbol {
+  color: var(--everforest-orange) !important;
+}
+
+span.hljs-meta {
+  color: var(--everforest-foreground) !important;
+}
+
+span.hljs-meta-keyword {
+  color: var(--everforest-pink) !important;
+}
+
+span.hljs-meta-string {
+  color: var(--everforest-orange) !important;
+}

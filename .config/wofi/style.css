@@ -1,0 +1,92 @@
+@define-color bg_dim    #1e2326;
+@define-color bg0       #272e33;
+@define-color bg1       #2e383c;
+
+@define-color fg        #d3c6aa;
+@define-color subtext0  #a6adc8;
+@define-color subtext1  #bac2de;
+
+@define-color bcolor    #425047;
+@define-color surface1 #45475a;
+@define-color surface2 #585b70;
+
+@define-color overlay0 #6c7086;
+@define-color overlay1 #7f849c;
+@define-color overlay2 #9399b2;
+
+@define-color comment   #6272A4;
+@define-color red       #e67e80;
+@define-color orange    #e69875;
+@define-color yellow    #dbbc7f;
+@define-color green     #a7c080;
+@define-color aqua      #83c092;
+@define-color blue      #7fbbb3;
+@define-color purple    #d699b6;
+
+
+
+* {
+    font-family: ShureTechMono Nerd Font;
+    font-size: 18px;
+    border-radius: 12px;
+}
+
+window {
+    margin: 5px;
+    background-color: @bg_dim;
+    border: 3px solid @bcolor;
+    border-radius: 12px;
+}
+
+#outer-box {
+    margin: 4px;
+    border-radius: 15px;
+}
+
+#input {
+    margin: 10px 10px 20px 10px;
+    background-color: @bg0;
+    color: @fg;
+    border-radius: 8px;
+    padding: 5px;
+    border: 1px solid @bcolor; 
+}
+
+#inner-box {
+    margin: 0px 10px 50px 10px;
+    border-radius: 0px;
+    background-color: @bg_dim;
+}
+
+#scroll {
+    margin: 0px 0px;
+    border-radius: 8px;
+    border: none;
+}
+
+#image {
+    background-color: @none;
+}
+
+#text {
+    margin: 2px;
+    color: @fg;
+    background-color: @none;
+}
+
+#text:selected {
+    color: @fg;
+}
+
+#entry {
+    color: @bg_dim;
+    background-color: @none;
+    border: none;
+    border-radius: 8px;
+}
+
+
+#entry:selected {
+    color: @bg_dim;
+    background-color: @bcolor;
+}

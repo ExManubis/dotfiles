@@ -1,0 +1,31 @@
+/*
+*
+* Everforest color palette
+* Maintainer: exmanubis
+*
+*/
+
+@define-color bg_dim    #1e2326;
+@define-color bg0       #272e33;
+@define-color bg1       #2e383c;
+@define-color bg4       #4F585E;
+
+@define-color text      #d3c6aa;
+@define-color bcolor    #425047;
+@define-color subtext1  #bac2de;
+
+@define-color grey0     #7A8478;
+@define-color surface1 #45475a;
+@define-color surface2 #585b70;
+
+@define-color overlay0 #6c7086;
+@define-color overlay1 #7f849c;
+@define-color overlay2 #9399b2;
+
+@define-color red       #e67e80;
+@define-color orange    #e69875;
+@define-color yellow    #dbbc7f;
+@define-color green     #a7c080;
+@define-color aqua      #83c092;
+@define-color blue      #7fbbb3;
+@define-color purple    #d699b6;

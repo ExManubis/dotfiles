@@ -1,0 +1,170 @@
+@import "../waybar/colors/everforest.css";
+
+/* margin: top right bottom left */
+/* Spacing outside the element */
+
+/* padding: top right bottom left */
+/* Spacing inside the element */
+
+* {
+  font-family: ShureTechMono Nerd Font;
+  font-size: 14px;
+  border: none;
+  border-radius: 0;
+  min-height: 0;
+
+}
+
+tooltip {
+  color: @text;
+  background-color: @bg_dim;
+  background: @bg_dim;
+  border-radius: 12px;
+  border: 2px solid @bcolor;
+}
+
+window#waybar {
+  background-color: transparent;
+  color: @text;
+  opacity: 1.0;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+  border-radius: 0px;
+  transition-duration: .5s;
+}
+
+window#waybar.hidden {
+  opacity: 0.2;
+}
+
+#workspaces {
+  background-color: @bg_dim;
+  border-radius: 12px;
+  border: 2px solid @bcolor;
+  margin: 6px 0px 2px 0px;
+  padding-right: 12px;
+  padding-left: 12px;
+}
+
+#workspaces button {
+  color: @bcolor;
+}
+
+#workspaces button:hover {
+  color: @green;
+  background: @bg_dim;
+  border: none;
+  border-radius: 12px;
+}
+
+#workspaces button.active {
+  color: @green;
+}
+
+#custom-launcher,
+#clock,
+#battery,
+#cpu,
+#temperature,
+#memory,
+#backlight,
+#network,
+#pulseaudio,
+#custom-dunst,
+#language,
+#tray,
+#custom-powermenu
+#workspaces{
+  padding: 10px 16px 10px 16px;
+  margin-top: 6px;
+  margin-bottom: 2px;
+  border-radius: 12px;
+  border: 2px solid;
+  border-color: @bcolor;
+  color: @text;
+  background-color: @bg_dim;
+}
+
+#window,
+
+#custom-launcher {
+  margin: 6px 0px 6px 0px;
+  background-color: @pink;
+}
+
+#language {
+  padding: 0px 16px 0px 16px;
+  border-radius: 12px;
+  color: @text;
+  border: 2px solid @bcolor;
+}
+
+#cpu {
+  color: @red;
+  margin-left: 10px;
+  margin-top: 6px;
+  margin-bottom: 2px;
+  margin-right: 0px;
+}
+
+#memory{
+  color: @aqua;
+  margin-left: 0px;
+}
+
+#backlight {
+  color: @yellow;
+}
+
+#custom-dunst {
+  color: @purple;
+  padding: 0px 16px 0px 14px
+}
+
+#pulseaudio {
+  color: @blue;
+}
+
+#tray {
+}
+
+#network {
+  padding: 0px 15px 0px 20px;
+  color: @aqua;
+}
+
+#battery {
+  color: @green;
+}
+
+#clock {
+  margin-right: 10px;
+}
+
+#custom-powermenu {
+  padding: 0px 20px 0px 15px;
+  margin: 8px 0px 6px 0px;
+  background-color: @red;
+}
+
+@keyframes blink {
+  to {
+    background-color: rgba(30, 34, 42, 0.5);
+    color: #abb2bf;
+  }
+}
+
+#battery.critical:not(.charging) {
+  color: #f53c3c;
+  animation-name: blink;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+label:focus {
+  background-color: #000000;
+}
+
+
