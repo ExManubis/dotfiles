@@ -1,0 +1,61 @@
+set window-title-basename "true"
+set selection-clipboard "clipboard"
+set selection-notification false
+set adjust-open width
+set window-height 1000
+set window-width 1000
+set font 'ShureTechMono Nerd Font 12'
+
+# Everforest color theme for Zathura
+
+
+#
+# Everforest color theme
+#
+
+set notification-error-bg       "#e67e80" # Red
+set notification-error-fg       "#d3c6aa" # Foreground
+set notification-warning-bg     "#e69875" # Orange
+set notification-warning-fg     "#543a48" # Selection
+set notification-bg             "#272e33" # Background
+set notification-fg             "#d3c6aa" # Foreground
+
+set completion-bg               "#272e33" # Background
+set completion-fg               "#d3c6aa" # Comment
+set completion-group-bg         "#272e33" # Background
+set completion-group-fg         "#272e33" # Comment
+set completion-highlight-bg     "#2e383c" # Selection
+set completion-highlight-fg     "#d3c6aa" # Foreground
+
+set index-bg                    "#1e2326" # Background
+set index-fg                    "#d3c6aa" # Foreground
+set index-active-bg             "#343f44" # Current Line
+set index-active-fg             "#d3c6aa" # Foreground
+
+set inputbar-bg                 "#232a2e" # Background
+set inputbar-fg                 "#d3c6aa" # Foreground
+set statusbar-bg                "#232a2e" # Background
+set statusbar-fg                "#d3c6aa" # Foreground
+
+set highlight-color             "#e69875" # Orange
+set highlight-active-color      "#d699b6" # Purple
+
+set default-bg                  "#2d353b" # Background
+set default-fg                  "#d3c6aa" # Foreground
+
+set render-loading              true
+set render-loading-fg           "#1e2326" # Background
+set render-loading-bg           "#d3c6aa" # Foreground
+
+#
+# Recolor mode settings
+#
+
+set recolor-lightcolor          "#2d353b" # Background
+set recolor-darkcolor           "#d3c6aa" # Foreground
+
+#
+# Startup options
+#
+set adjust-open width
+set recolor true
